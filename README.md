@@ -1,66 +1,111 @@
 # betternote
 BetterNote android app
+# BetterNote Project Overview
 
-betternote
-betternote-web
+## Project Structure
+
+### Branches
+- **main**: Ultra stable version of the project.
+- **dev**: Development branch for ongoing work.
+- **feature**: Dedicated branch for feature development.
+
+### Agenda
+- **Monthly Goals[MARCH]**:
+    - Web app / Android:
+        - [ ] Create UI for note-taking.
+        - [ ] Create a Note entering space.
+
+    - **Week 1 Tasks**:
+        - **Android Team**:
+            - [ ] Learn Kotlin UNIT 1.
+            - Build a basic application.
+                - [ ] Set up Android Studio.
+                - [ ] Create a new Kotlin project.
+                - [ ] Display a simple "Hello World" message.
+
+        - **Web Team**:
+            - Basic code setup.
+                - [ ] Set up a new React project.
+                - [ ] Create a simple webpage.
+                - [ ] Understand the basics of HTML and CSS.
+
+### Tech Stack
+- **Android App**: Kotlin
+- **Frontend**: React
+
+### Owners
+- [abhishekcoder15](https://github.com/abhishekcoder15)
+- [anantdark](https://github.com/anantdark)
+- [i-akshay-kumar](https://github.com/i-akshay-kumar)
+- [durgesh-code](https://github.com/durgesh-code)
+
+## Checklists for Tasks
+
+### Android Team (Week 1)
+- [ ] Set up Android Studio.
+- [ ] Create a new Kotlin project.
+- [ ] Create an app to display a simple message.
+
+### Web Team (Week 1)
+- [ ] Set up a new React project.
+- [ ] Create a simple webpage skeleton.
+- [ ] Understand the basics of HTML and CSS.
+
+### Common Features Implementation
+- **Login Function (Basic)**
+    - [ ] Implement a basic login form.
+    - [ ] Create a user database mock.
 
 
-main (ultra stable)
-dev (development)
-feature (features development)
-
--------------------------------------
-
-agenda (month)
-web app / android
-    - frontend UI for note taking
-    - note entering space 
-
-(week - 1)
-android team
-    - learn kotlin UNIT 1
-    - build anything basic
-
-web team
-    - basic code setup
-    - basic website
-
-------------------------------------
-tech stack
-android app - kotlin
-
-frontend - react
-
--------------------------------------
-Feature list
-
-Common features - 
-
-- login function (basic)
-    - key-value pair store (id: password)
-- Use json-like structures/files (v1)
-note taking
-    - supports markdown (v1)
-    - auto save with timestamp (v1)
-
-Todo list
-    - checklist (v1)
-        - reminder audio jingle (v1)
-        - reminder notifications (v2)
+- **Use JSON-like Structures/Files (v1)**
+    - [ ] Learn about JSON syntax.
+    - [ ] Create sample JSON data.
 
 
+- **Note Taking**
+    - **Supports Markdown (v1)**
+        - [ ] Learn Markdown basics.
+        - [ ] Implement a simple Markdown editor.
 
-SYNC OF DATA between web and app(v3)
-    - export of data (v2)
-    - import of data (v2)
+    - **Auto-save with timestamp (v1)**
+        - [ ] Explore local storage in Android.
+        - [ ] Implement auto timestamp-save functionality.
 
-- login feature (v2)
-- encrypt notes (v3)
 
-Owners--->
+- **Todo List**
+    - **Checklist (v1)**
+        - [ ] Create a checklist component.
+        - [ ] Implement adding items to the checklist.
+        - [ ] Implement marking items as done from checklist.
 
-abhishekcoder15
-anantdark
-i-akshay-kumar
-durgesh-code
+    - **Reminder audio jingle (v1)**
+        - [ ] Explore audio libraries for Android.
+        - [ ] Implement basic audio functionality.
 
+    - **Reminder notifications (v2)**
+        - [ ] Understand Android notification system.
+        - [ ] Implement notification feature.
+
+
+- **Data Sync**
+    - **Export of data (v2)**
+        - [ ] Learn about data export formats (e.g., JSON).
+        - [ ] Implement data export functionality.
+
+    - **Import of data (v2)**
+        - [ ] Implement data import functionality.
+        - [ ] Ensure compatibility with exported data.
+    
+    - **Auto Sync feature(v3)**
+      - [ ] DISCUSSION: sync between devices and merge conflict resolution.
+
+
+- **Login Feature (v2)**
+    - [ ] Implement on-device login functionality 
+    - [ ] Implement credential hashing to secure passwords
+    - [ ] Implement user authentication.
+
+
+- **Encrypt Notes (v3)**
+    - [ ] Research basic encryption concepts.
+    - [ ] Implement note encryption and decryption.

@@ -17,17 +17,33 @@ BetterNote android app
 
     - **Week 1 Tasks**:
         - **Android Team**:
-            - [ ] Learn Kotlin UNIT 1.
+            - [x] Learn Kotlin UNIT 1.
             - Build a basic application.
-                - [ ] Set up Android Studio.
-                - [ ] Create a new Kotlin project.
-                - [ ] Display a simple "Hello World" message.
+                - [x] Set up Android Studio.
+                - [x] Create a new Kotlin project.
+                - [x] Display a simple "Hello World" message.
 
         - **Web Team**:
             - Basic code setup.
-                - [ ] Set up a new React project.
-                - [ ] Create a simple webpage.
-                - [ ] Understand the basics of HTML and CSS.
+                - [x] Set up a new React project.
+                - [x] Create a simple webpage.
+                - [x] Understand the basics of HTML and CSS.
+
+    - **Week 2 Tasks**:
+        - **Android Team**:
+            - [ ] Learn Android Development Unit 2
+            - [ ] Go through Android Development Basics
+            - [ ] Create a clock
+            - [ ] Create a calculator(maybe?)
+
+        - **Web Team**:
+            - [ ] Add formatting functionality 
+              - [ ] Research on markdown input
+            - [ ] Key bindings (redo, undo, etc) support
+            - [ ] Define routes for UI
+            - [ ] Create sidebar and remove navbar
+            - [ ] Basic todo functionality
+
 
 ### Tech Stack
 - **Android App**: Kotlin
@@ -109,3 +125,7 @@ BetterNote android app
 - **Encrypt Notes (v3)**
     - [ ] Research basic encryption concepts.
     - [ ] Implement note encryption and decryption.
+
+- **Support Vim Keybindings (v4)**
+  - [ ] Enable switch to activate vim-mode for notes
+  - [ ] For todo enter will create the todo(no multiline todo)

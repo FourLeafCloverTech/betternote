@@ -56,17 +56,7 @@ BetterNote android app
 - [durgesh-code](https://github.com/durgesh-code)
 
 ## Checklists for Tasks
-
-### Android Team (Week 1)
-- [ ] Set up Android Studio.
-- [ ] Create a new Kotlin project.
-- [ ] Create an app to display a simple message.
-
-### Web Team (Week 1)
-- [ ] Set up a new React project.
-- [ ] Create a simple webpage skeleton.
-- [ ] Understand the basics of HTML and CSS.
-
+---
 ### Common Features Implementation
 - **Login Function (Basic)**
     - [ ] Implement a basic login form.
